@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: url(images/library-interior-interior-design-books-wallpaper-5980889d712afd2bf6f7989fc0a1b69d.jpg)
+    no-repeat center center/ cover;
+}
+
+.container {
+  height: 400px;
+  width: 600px;
+}
+
+.header {
+  border: 2px solid #777;
+  border-radius: 10px;
+  width: 90%;
+  margin: 1rem auto;
+  background: #262728;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.main-content {
+  background-color: bisque;
+  border-radius: 5px;
+  height: 250px;
+  width: 600px;
+  padding: 2rem;
+  box-shadow: 0 0 25px;
+  position: relative;
+}
+
+.main-content .text-area {
+  line-height: 1.5;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.main-content .author {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: chocolate;
+  text-align: end;
+  margin: 1rem;
+}
+
+.author::before {
+  content: "\2014\00a0";
+}
+
+.btn {
+  border: 0;
+  background-color: rgb(50, 138, 215);
+  padding: 0.3rem 2rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 10px;
+  right: 230px;
+}
+
+.btn:hover {
+  background-color: rgb(31, 83, 224);
+}
